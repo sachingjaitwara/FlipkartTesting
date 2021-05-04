@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[SAMSUNG 275 L Frost Free Double Door 2 Star Convertible Refrigerator]]>
+    </line>
+    <line>
+      <![CDATA[SAMSUNG 275 L Frost Free Double Door 3 Star Convertible Refrigerator]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71945" started-at="2021-05-03T16:40:44Z" finished-at="2021-05-03T16:41:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71945" started-at="2021-05-03T16:40:44Z" finished-at="2021-05-03T16:41:56Z">
+      <class name="com.project_name.testscripts.SignIn">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.project_name.testscripts.SignIn@3e6fa38a]" name="openApp" is-config="true" duration-ms="12698" started-at="2021-05-03T16:40:44Z" finished-at="2021-05-03T16:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.project_name.testscripts.SignIn@3e6fa38a]" name="test1" duration-ms="57608" started-at="2021-05-03T16:40:57Z" finished-at="2021-05-03T16:41:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[SAMSUNG 275 L Frost Free Double Door 2 Star Convertible Refrigerator]]>
+            </line>
+            <line>
+              <![CDATA[SAMSUNG 275 L Frost Free Double Door 3 Star Convertible Refrigerator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.project_name.testscripts.SignIn@3e6fa38a]" name="closeApp" is-config="true" duration-ms="1588" started-at="2021-05-03T16:41:54Z" finished-at="2021-05-03T16:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=SignIn.test1()[pri:0, instance:com.project_name.testscripts.SignIn@3e6fa38a] output=SAMSUNG 275 L Frost Free Double Door 2 Star Convertible Refrigerator]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.project_name.testscripts.SignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
